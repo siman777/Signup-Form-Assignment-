@@ -73,3 +73,33 @@ button{
 	margin-top:15px;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+
+    #header, #main {
+        width: 90%;
+    }
+
+    .head {
+        font-size: 42px;
+        margin-top: 30px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="date"] {
+        font-size: 18px;
+        padding: 12px 5px;
+        margin-bottom: 12px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 20px;
+    }
+}
