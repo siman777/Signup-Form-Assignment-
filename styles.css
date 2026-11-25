@@ -39,8 +39,17 @@ input[type="date"]{
 	box-sizing: border-box;
 }
 
-/* input:focus-visible{
-	outline: 2px solid grey;
+input:user-invalid {
+    border-bottom-color: red;
+}
+
+input:user-valid {
+    border-bottom-color: green;
+}
+
+/* input:focus-visible,
+button:focus-visible {
+    outline: 2px solid grey;
 } */
 
 form > ::placeholder{
